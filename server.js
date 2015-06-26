@@ -30,11 +30,6 @@ app.delete('/json', function (req, res) {
   res.json(r('delete'));
 });
 
-var server = app.listen(3000, function () {
-
-  var host = server.address().address;
-  var port = server.address().port;
-
-  console.log('Example app listening at http://%s:%s', host, port);
-
+app.listen(app.get('port'), function() {
+    console.log('Node app is running on port', app.get('port'));
 });
