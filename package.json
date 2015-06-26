@@ -1,29 +1,26 @@
 {
-  "name": "api-tester",
-  "version": "1.0.0",
-  "description": "Simple API endpoint that responds to a number of requests",
+  "name": "ionic-api-tester",
+  "version": "0.0.1",
+  "description": "Simple API Tester"
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.12.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/driftyco/api-tester.git"
+    "url": "https://github.com/heroku/node-js-getting-started"
   },
   "keywords": [
-    "ionic",
-    "http",
     "node",
-    "api"
+    "heroku",
+    "express"
   ],
-  "author": "Max Lynch <max@ionic.io>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/driftyco/api-tester/issues"
-  },
-  "homepage": "https://github.com/driftyco/api-tester#readme",
-  "dependencies": {
-    "cors": "^2.7.1",
-    "express": "^4.13.0"
-  }
+  "license": "MIT"
 }
