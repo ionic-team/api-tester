@@ -1,0 +1,29 @@
+{
+  "name": "api-tester",
+  "version": "1.0.0",
+  "description": "Simple API endpoint that responds to a number of requests",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driftyco/api-tester.git"
+  },
+  "keywords": [
+    "ionic",
+    "http",
+    "node",
+    "api"
+  ],
+  "author": "Max Lynch <max@ionic.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/driftyco/api-tester/issues"
+  },
+  "homepage": "https://github.com/driftyco/api-tester#readme",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.0"
+  }
+}
