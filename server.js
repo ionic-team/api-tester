@@ -1,7 +1,10 @@
 var express = require('express'),
     cors = require('cors');
 
+
 var app = express();
+
+app.set('port', (process.env.PORT || 5000));
 
 app.use(cors({
   origin: function(origin, callback) {

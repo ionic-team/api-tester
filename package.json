@@ -4,7 +4,7 @@
   "description": "Simple API Tester",
   "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.7.1",
